@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "imetDwuHjNS0nekkQMHIZUwZlmU+5eEwrcLRvOTeZbQ=",
+  "Source": "GrayLogTutorial.WebAPI",
+  "BasePath": "_content/GrayLogTutorial.WebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

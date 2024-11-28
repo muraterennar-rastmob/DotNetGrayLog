@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrayLogTutorial.WebAPI", "GrayLogTutorial.WebAPI\GrayLogTutorial.WebAPI.csproj", "{5C352C97-88C4-4597-B506-DADC9A5EB7D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrayLogTutorial.Core", "GrayLogTutorial.Core\GrayLogTutorial.Core.csproj", "{D6A89E7D-81DC-417D-89DE-D7A751C85417}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5C352C97-88C4-4597-B506-DADC9A5EB7D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C352C97-88C4-4597-B506-DADC9A5EB7D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C352C97-88C4-4597-B506-DADC9A5EB7D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C352C97-88C4-4597-B506-DADC9A5EB7D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6A89E7D-81DC-417D-89DE-D7A751C85417}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6A89E7D-81DC-417D-89DE-D7A751C85417}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6A89E7D-81DC-417D-89DE-D7A751C85417}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6A89E7D-81DC-417D-89DE-D7A751C85417}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

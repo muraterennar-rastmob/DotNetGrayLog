@@ -1,0 +1,116 @@
+2024-11-28 12:27:52.109 +03:00 [INF] Get WeatherForecast => [{"Date":"2024-11-29","TemperatureC":10,"TemperatureF":49,"Summary":"Balmy","$type":"WeatherForecast"},{"Date":"2024-11-30","TemperatureC":0,"TemperatureF":32,"Summary":"Warm","$type":"WeatherForecast"},{"Date":"2024-12-01","TemperatureC":54,"TemperatureF":129,"Summary":"Chilly","$type":"WeatherForecast"},{"Date":"2024-12-02","TemperatureC":27,"TemperatureF":80,"Summary":"Freezing","$type":"WeatherForecast"},{"Date":"2024-12-03","TemperatureC":10,"TemperatureF":49,"Summary":"Chilly","$type":"WeatherForecast"}]
+2024-11-28 12:34:29.401 +03:00 [FTL] Invoke Error
+System.Exception: Custom Error
+   at GrayLogTutorial.WebAPI.Controllers.WeatherForecastController.Get(Boolean isError) in /Users/muraterennar/RiderProjects/GrayLogTutorial/GrayLogTutorial.WebAPI/Controllers/WeatherForecastController.cs:line 27
+   at lambda_method2(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at GrayLogTutorial.Core.ExceptionHandling.ExceptionHandlingMiddleware.Invoke(HttpContext context) in /Users/muraterennar/RiderProjects/GrayLogTutorial/GrayLogTutorial.Core/ExceptionHandling/ExceptionHandlingMiddleware.cs:line 19
+2024-11-28 12:38:00.307 +03:00 [FTL] Invoke Error
+System.Exception: Custom Error
+   at GrayLogTutorial.WebAPI.Controllers.WeatherForecastController.Get(Boolean isError) in /Users/muraterennar/RiderProjects/GrayLogTutorial/GrayLogTutorial.WebAPI/Controllers/WeatherForecastController.cs:line 27
+   at lambda_method2(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at GrayLogTutorial.Core.ExceptionHandling.ExceptionHandlingMiddleware.Invoke(HttpContext context) in /Users/muraterennar/RiderProjects/GrayLogTutorial/GrayLogTutorial.Core/ExceptionHandling/ExceptionHandlingMiddleware.cs:line 19
+2024-11-28 15:17:38.536 +03:00 [INF] Request started at "2024-11-28T12:17:38.5338500Z"
+2024-11-28 15:18:09.803 +03:00 [INF] Request processed successfully.
+2024-11-28 15:22:25.565 +03:00 [INF] Request started at "2024-11-28T12:22:25.5627840Z"
+2024-11-28 15:22:37.796 +03:00 [INF] Request processed successfully.
+2024-11-28 15:23:43.229 +03:00 [INF] Request started at "2024-11-28T12:23:43.2282630Z"
+2024-11-28 15:24:25.228 +03:00 [INF] Request processed successfully.
+2024-11-28 15:45:02.517 +03:00 [INF] Request started at "2024-11-28T12:45:02.5143500Z"
+2024-11-28 15:45:07.722 +03:00 [INF] Request processed successfully.
+2024-11-28 16:08:57.743 +03:00 [INF] Request started at "2024-11-28T13:08:57.7400650Z"
+2024-11-28 16:09:03.196 +03:00 [INF] Request processed successfully.
+2024-11-28 16:09:26.880 +03:00 [INF] Request started at "2024-11-28T13:09:26.8806880Z"
+2024-11-28 16:09:29.446 +03:00 [FTL] An error occurred during request processing.
+System.Exception: Custom Error
+   at GrayLogTutorial.WebAPI.Controllers.WeatherForecastController.Get(Boolean isError) in /Users/muraterennar/RiderProjects/GrayLogTutorial/GrayLogTutorial.WebAPI/Controllers/WeatherForecastController.cs:line 30
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at GrayLogTutorial.Core.ExceptionHandling.ExceptionHandlingMiddleware.Invoke(HttpContext context) in /Users/muraterennar/RiderProjects/GrayLogTutorial/GrayLogTutorial.Core/ExceptionHandling/ExceptionHandlingMiddleware.cs:line 23
+2024-11-28 16:17:32.016 +03:00 [INF] Request started at "2024-11-28T13:17:32.0086860Z"
+2024-11-28 16:17:37.325 +03:00 [ERR] Unhandled exception
+2024-11-28 16:18:30.112 +03:00 [INF] Request started at "2024-11-28T13:18:30.1122750Z"
+2024-11-28 16:20:27.316 +03:00 [INF] Request started at "2024-11-28T13:20:27.3143540Z"
+2024-11-28 16:20:41.498 +03:00 [INF] Request finished at "2024-11-28T13:20:41.4906290Z"
+2024-11-28 16:21:22.818 +03:00 [INF] Request started at "2024-11-28T13:21:22.8177130Z"
+2024-11-28 16:21:25.478 +03:00 [ERR] Unhandled exception
+System.Exception: Custom Error
+   at GrayLogTutorial.WebAPI.Controllers.WeatherForecastController.Get(Boolean isError) in /Users/muraterennar/RiderProjects/GrayLogTutorial/GrayLogTutorial.WebAPI/Controllers/WeatherForecastController.cs:line 30
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at GrayLogTutorial.Core.ExceptionHandling.ExceptionHandlingMiddleware.Invoke(HttpContext context) in /Users/muraterennar/RiderProjects/GrayLogTutorial/GrayLogTutorial.Core/ExceptionHandling/ExceptionHandlingMiddleware.cs:line 25
+2024-11-28 16:24:26.815 +03:00 [INF] Request started at "2024-11-28T13:24:26.8143270Z"
+2024-11-28 16:24:27.172 +03:00 [ERR] Unhandled exception
+System.Exception: Custom Error
+   at GrayLogTutorial.WebAPI.Controllers.WeatherForecastController.Get(Boolean isError) in /Users/muraterennar/RiderProjects/GrayLogTutorial/GrayLogTutorial.WebAPI/Controllers/WeatherForecastController.cs:line 30
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at GrayLogTutorial.Core.ExceptionHandling.ExceptionHandlingMiddleware.Invoke(HttpContext context) in /Users/muraterennar/RiderProjects/GrayLogTutorial/GrayLogTutorial.Core/ExceptionHandling/ExceptionHandlingMiddleware.cs:line 26
+2024-11-28 16:26:05.199 +03:00 [INF] Request started at "2024-11-28T13:26:05.1969400Z"
+2024-11-28 16:26:05.471 +03:00 [ERR] Unhandled exception
+System.Exception: Custom Error
+   at GrayLogTutorial.WebAPI.Controllers.WeatherForecastController.Get(Boolean isError) in /Users/muraterennar/RiderProjects/GrayLogTutorial/GrayLogTutorial.WebAPI/Controllers/WeatherForecastController.cs:line 30
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at GrayLogTutorial.Core.ExceptionHandling.ExceptionHandlingMiddleware.Invoke(HttpContext context) in /Users/muraterennar/RiderProjects/GrayLogTutorial/GrayLogTutorial.Core/ExceptionHandling/ExceptionHandlingMiddleware.cs:line 26
+2024-11-28 16:26:22.070 +03:00 [INF] Request started at "2024-11-28T13:26:22.0700210Z"
+2024-11-28 16:26:22.217 +03:00 [INF] Request finished at "2024-11-28T13:26:22.2166710Z"
