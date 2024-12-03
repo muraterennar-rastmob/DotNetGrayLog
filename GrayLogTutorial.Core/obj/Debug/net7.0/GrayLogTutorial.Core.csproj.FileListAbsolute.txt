@@ -10,3 +10,4 @@
 /Users/muraterennar/RiderProjects/GrayLogTutorial/GrayLogTutorial.Core/obj/Debug/net7.0/refint/GrayLogTutorial.Core.dll
 /Users/muraterennar/RiderProjects/GrayLogTutorial/GrayLogTutorial.Core/obj/Debug/net7.0/GrayLogTutorial.Core.pdb
 /Users/muraterennar/RiderProjects/GrayLogTutorial/GrayLogTutorial.Core/obj/Debug/net7.0/ref/GrayLogTutorial.Core.dll
+/Users/muraterennar/RiderProjects/GrayLogTutorial/GrayLogTutorial.Core/obj/Debug/net7.0/GrayLogTutorial.Core.sourcelink.json

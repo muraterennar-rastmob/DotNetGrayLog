@@ -1,0 +1,12 @@
+/Users/muraterennar/RiderProjects/GrayLogTutorial/GrayLogTutorial.Domain/bin/Debug/net7.0/GrayLogTutorial.Domain.deps.json
+/Users/muraterennar/RiderProjects/GrayLogTutorial/GrayLogTutorial.Domain/bin/Debug/net7.0/GrayLogTutorial.Domain.dll
+/Users/muraterennar/RiderProjects/GrayLogTutorial/GrayLogTutorial.Domain/bin/Debug/net7.0/GrayLogTutorial.Domain.pdb
+/Users/muraterennar/RiderProjects/GrayLogTutorial/GrayLogTutorial.Domain/obj/Debug/net7.0/GrayLogTutorial.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/muraterennar/RiderProjects/GrayLogTutorial/GrayLogTutorial.Domain/obj/Debug/net7.0/GrayLogTutorial.Domain.AssemblyInfoInputs.cache
+/Users/muraterennar/RiderProjects/GrayLogTutorial/GrayLogTutorial.Domain/obj/Debug/net7.0/GrayLogTutorial.Domain.AssemblyInfo.cs
+/Users/muraterennar/RiderProjects/GrayLogTutorial/GrayLogTutorial.Domain/obj/Debug/net7.0/GrayLogTutorial.Domain.csproj.CoreCompileInputs.cache
+/Users/muraterennar/RiderProjects/GrayLogTutorial/GrayLogTutorial.Domain/obj/Debug/net7.0/GrayLogTutorial.Domain.sourcelink.json
+/Users/muraterennar/RiderProjects/GrayLogTutorial/GrayLogTutorial.Domain/obj/Debug/net7.0/GrayLogTutorial.Domain.dll
+/Users/muraterennar/RiderProjects/GrayLogTutorial/GrayLogTutorial.Domain/obj/Debug/net7.0/refint/GrayLogTutorial.Domain.dll
+/Users/muraterennar/RiderProjects/GrayLogTutorial/GrayLogTutorial.Domain/obj/Debug/net7.0/GrayLogTutorial.Domain.pdb
+/Users/muraterennar/RiderProjects/GrayLogTutorial/GrayLogTutorial.Domain/obj/Debug/net7.0/ref/GrayLogTutorial.Domain.dll

@@ -4,6 +4,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrayLogTutorial.WebAPI", "G
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrayLogTutorial.Core", "GrayLogTutorial.Core\GrayLogTutorial.Core.csproj", "{D6A89E7D-81DC-417D-89DE-D7A751C85417}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrayLogTutorial.Application", "GrayLogTutorial.Application\GrayLogTutorial.Application.csproj", "{6DF509B1-8443-4490-B186-EB0C5F042C86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrayLogTutorial.Domain", "GrayLogTutorial.Domain\GrayLogTutorial.Domain.csproj", "{9729A866-FACC-4B43-83CB-FD673AC10E29}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +22,13 @@ Global
 		{D6A89E7D-81DC-417D-89DE-D7A751C85417}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6A89E7D-81DC-417D-89DE-D7A751C85417}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D6A89E7D-81DC-417D-89DE-D7A751C85417}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DF509B1-8443-4490-B186-EB0C5F042C86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DF509B1-8443-4490-B186-EB0C5F042C86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DF509B1-8443-4490-B186-EB0C5F042C86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DF509B1-8443-4490-B186-EB0C5F042C86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9729A866-FACC-4B43-83CB-FD673AC10E29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9729A866-FACC-4B43-83CB-FD673AC10E29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9729A866-FACC-4B43-83CB-FD673AC10E29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9729A866-FACC-4B43-83CB-FD673AC10E29}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

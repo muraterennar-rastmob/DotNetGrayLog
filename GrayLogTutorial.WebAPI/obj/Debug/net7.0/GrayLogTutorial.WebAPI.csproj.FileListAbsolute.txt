@@ -47,3 +47,8 @@
 /Users/muraterennar/RiderProjects/GrayLogTutorial/GrayLogTutorial.WebAPI/bin/Debug/net7.0/System.Text.Encodings.Web.dll
 /Users/muraterennar/RiderProjects/GrayLogTutorial/GrayLogTutorial.WebAPI/bin/Debug/net7.0/System.Text.Json.dll
 /Users/muraterennar/RiderProjects/GrayLogTutorial/GrayLogTutorial.WebAPI/bin/Debug/net7.0/Newtonsoft.Json.dll
+/Users/muraterennar/RiderProjects/GrayLogTutorial/GrayLogTutorial.WebAPI/bin/Debug/net7.0/GrayLogTutorial.Application.dll
+/Users/muraterennar/RiderProjects/GrayLogTutorial/GrayLogTutorial.WebAPI/bin/Debug/net7.0/GrayLogTutorial.Domain.dll
+/Users/muraterennar/RiderProjects/GrayLogTutorial/GrayLogTutorial.WebAPI/bin/Debug/net7.0/GrayLogTutorial.Application.pdb
+/Users/muraterennar/RiderProjects/GrayLogTutorial/GrayLogTutorial.WebAPI/bin/Debug/net7.0/GrayLogTutorial.Domain.pdb
+/Users/muraterennar/RiderProjects/GrayLogTutorial/GrayLogTutorial.WebAPI/obj/Debug/net7.0/GrayLogTutorial.WebAPI.sourcelink.json

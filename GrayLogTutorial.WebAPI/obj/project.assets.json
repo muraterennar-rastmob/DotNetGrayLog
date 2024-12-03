@@ -482,6 +482,20 @@
           "lib/netcoreapp2.1/_._": {}
         }
       },
+      "GrayLogTutorial.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "GrayLogTutorial.Core": "1.0.0",
+          "GrayLogTutorial.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/GrayLogTutorial.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GrayLogTutorial.Application.dll": {}
+        }
+      },
       "GrayLogTutorial.Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -499,6 +513,16 @@
         },
         "runtime": {
           "bin/placeholder/GrayLogTutorial.Core.dll": {}
+        }
+      },
+      "GrayLogTutorial.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/GrayLogTutorial.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GrayLogTutorial.Domain.dll": {}
         }
       }
     }
@@ -1478,14 +1502,25 @@
         "version.txt"
       ]
     },
+    "GrayLogTutorial.Application/1.0.0": {
+      "type": "project",
+      "path": "../GrayLogTutorial.Application/GrayLogTutorial.Application.csproj",
+      "msbuildProject": "../GrayLogTutorial.Application/GrayLogTutorial.Application.csproj"
+    },
     "GrayLogTutorial.Core/1.0.0": {
       "type": "project",
       "path": "../GrayLogTutorial.Core/GrayLogTutorial.Core.csproj",
       "msbuildProject": "../GrayLogTutorial.Core/GrayLogTutorial.Core.csproj"
+    },
+    "GrayLogTutorial.Domain/1.0.0": {
+      "type": "project",
+      "path": "../GrayLogTutorial.Domain/GrayLogTutorial.Domain.csproj",
+      "msbuildProject": "../GrayLogTutorial.Domain/GrayLogTutorial.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "GrayLogTutorial.Application >= 1.0.0",
       "GrayLogTutorial.Core >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 7.0.20",
       "Serilog >= 4.1.0",
@@ -1521,6 +1556,9 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
+            "/Users/muraterennar/RiderProjects/GrayLogTutorial/GrayLogTutorial.Application/GrayLogTutorial.Application.csproj": {
+              "projectPath": "/Users/muraterennar/RiderProjects/GrayLogTutorial/GrayLogTutorial.Application/GrayLogTutorial.Application.csproj"
+            },
             "/Users/muraterennar/RiderProjects/GrayLogTutorial/GrayLogTutorial.Core/GrayLogTutorial.Core.csproj": {
               "projectPath": "/Users/muraterennar/RiderProjects/GrayLogTutorial/GrayLogTutorial.Core/GrayLogTutorial.Core.csproj"
             }

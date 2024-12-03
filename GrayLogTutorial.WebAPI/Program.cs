@@ -1,3 +1,5 @@
+using GrayLogTutorial.Application;
+using GrayLogTutorial.Application.Services.UserServices;
 using GrayLogTutorial.Core.ExceptionHandling;
 using GrayLogTutorial.Core.Logs;
 using GrayLogTutorial.Core.Logs.Serilog;
@@ -11,6 +13,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 builder.Services.AddHttpContextAccessor();
+builder.Services.AddHttpClient();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -28,6 +31,7 @@ Log.Logger = new LoggerConfiguration()
     .CreateLogger();
 
 builder.Services.AddSingleton<ILoggerService, SerilogLoggerService>();
+builder.Services.AddApplicationServices();
 
 var app = builder.Build();
 

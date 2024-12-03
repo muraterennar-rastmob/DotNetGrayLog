@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GrayLogTutorial.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9b20e91036948e64af3e67601621f3ce2506d145")]
 [assembly: System.Reflection.AssemblyProductAttribute("GrayLogTutorial.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GrayLogTutorial.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

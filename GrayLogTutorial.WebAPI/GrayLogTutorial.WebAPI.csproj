@@ -16,6 +16,7 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\GrayLogTutorial.Application\GrayLogTutorial.Application.csproj" />
       <ProjectReference Include="..\GrayLogTutorial.Core\GrayLogTutorial.Core.csproj" />
     </ItemGroup>
 

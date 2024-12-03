@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v7.0": {
       "GrayLogTutorial.WebAPI/1.0.0": {
         "dependencies": {
+          "GrayLogTutorial.Application": "1.0.0",
           "GrayLogTutorial.Core": "1.0.0",
           "Microsoft.AspNetCore.OpenApi": "7.0.20",
           "Serilog": "4.1.0",
@@ -245,6 +246,18 @@
         }
       },
       "System.Threading.Tasks.Extensions/4.5.4": {},
+      "GrayLogTutorial.Application/1.0.0": {
+        "dependencies": {
+          "GrayLogTutorial.Core": "1.0.0",
+          "GrayLogTutorial.Domain": "1.0.0"
+        },
+        "runtime": {
+          "GrayLogTutorial.Application.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "GrayLogTutorial.Core/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Http": "2.2.2",
@@ -257,6 +270,14 @@
         },
         "runtime": {
           "GrayLogTutorial.Core.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "GrayLogTutorial.Domain/1.0.0": {
+        "runtime": {
+          "GrayLogTutorial.Domain.dll": {
             "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -487,7 +508,17 @@
       "path": "system.threading.tasks.extensions/4.5.4",
       "hashPath": "system.threading.tasks.extensions.4.5.4.nupkg.sha512"
     },
+    "GrayLogTutorial.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "GrayLogTutorial.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GrayLogTutorial.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
